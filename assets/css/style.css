@@ -2,7 +2,7 @@ html,body{
     width: 1366px;
     height: 3651px;
     position: absolute;
-    margin:auto;
+    margin:0 auto;
 }
 
 .topnav {
@@ -12,20 +12,27 @@ left: 0px;
 top: 0px;
 background: #FFFFFF;
 text-align:right;
-}
+line-height: 128px;
 
-a{
-    
-    font-family: Montserrat;
+font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
-    padding-left: 27px;
-    padding-right: 27px;
-    text-decoration:none;
     color: #060606;
-    
+}
+#a-topnav{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+a{
+    text-decoration:none;
+    color: inherit;
+    font-style:inherit;
+    font-family: inherit;
+    font-weight:inherit;
+    font-size:inherit;
+    padding-left:inherit;
+    padding-right:inherit;
 }
 .vector{
     position: absolute;
@@ -300,4 +307,218 @@ border: none;
 
 color: #FFFFFF;
 background-color:#FFA800;
+}
+
+.atbalstitaji{
+    position: absolute;
+width: 1366px;
+height: 533.32px;
+left: 0px;
+top: 2827px;
+
+background: #FFCB66;
+}
+.teikums{
+    position: absolute;
+width: 241.95px;
+height: 80px;
+left: 168px;
+top: 3045px;
+
+}
+.sem-logo{
+    position: absolute;
+width: 209.32px;
+height: 80px;
+left: 495px;
+top: 3045px;
+}
+.citybee{
+    position: absolute;
+width: 238.96px;
+height: 80px;
+left: 789px;
+top: 3045px;
+}
+.linearis{
+    position: absolute;
+width: 84.77px;
+height: 120px;
+left: 1113px;
+top: 3026px;
+}
+.ripped3{
+    position: absolute;
+width: 1366px;
+height: 55px;
+left: 0px;
+top: 2827px;
+}
+.atbalstitaji-text{
+    position: absolute;
+width: 394px;
+height: 29px;
+left: 486px;
+top: 2900px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+
+color: #2F4858;
+}
+.footer{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 91.9%;
+bottom: 0%;
+height: 324px;
+
+background: #2F4858;
+}
+.ripped4{
+    position: absolute;
+left: 0%;
+right: 0%;
+top: 90.76%;
+bottom: 8.61%;
+transform: rotate(-180deg);
+}
+.GoldenLogo{
+    position: absolute;
+left: 4.54%;
+right: 82.14%;
+top: 8.41%;
+bottom: 32.18%;
+}
+.copyright-text{
+    position: absolute;
+left: 4.54%;
+right: 82.14%;
+top: 76.44%;
+bottom: 3.46%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+
+color: #FFFFFF;
+}
+#footertext{
+    position: absolute;
+left: 28.11%;
+right: 66.91%;
+top: 12.62%;
+bottom: 74.73%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 33px;
+color: #FFFFFF;
+width: 200px;
+}
+
+.footertext2{
+    position: absolute;
+    left: 47%;
+    right: 32.58%;
+    top: 20.89%;
+    bottom: 53.99%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 0px;
+    
+    color: #FFFFFF;
+}
+.TitleFooter{
+    position: absolute;
+    left: 47%;
+    right: 31.99%;
+    top: 4.62%;
+    bottom: 75%;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    
+    color: #FFFFFF;
+}
+.TitleFooter2{
+    position: absolute;
+left: 81.99%;
+right: 4.69%;
+top: 4.62%;
+bottom: 69.15%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 29px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.footertext3{
+    position: absolute;
+left: 66.47%;
+right: 4.69%;
+top: 20.89%;
+bottom: 63.3%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 0px;
+text-align: right;
+
+color: #FFFFFF;
+}
+.SocialMedia{
+    position: absolute;
+left: 89.39%;
+right: 9.3%;
+top: 58.82%;
+bottom: 22.61%;
+
+}
+.SocialMedia2{
+    position: absolute;
+left: 92.83%;
+right: 4.54%;
+top: 58.82%;
+bottom: 22.61%;
+
+}
+.privatuma-politika{
+    position: absolute;
+left: 81.55%;
+right: 4.54%;
+top: 76.44%;
+bottom: 5.32%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-align: right;
+
+color: #FFFFFF;
+
+
 }
