@@ -1,6 +1,5 @@
 html,body{
-    width: 1366px;
-    height: 3651px;
+    width: 100%;
     position: absolute;
     margin:0 auto;
 }
@@ -12,7 +11,7 @@ left: 0px;
 top: 0px;
 background: #FFFFFF;
 text-align:right;
-line-height: 128px;
+line-height: 200px;
 
 font-family: Montserrat;
     font-style: normal;
@@ -21,8 +20,7 @@ font-family: Montserrat;
     color: #060606;
 }
 #a-topnav{
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-right: 39px;
 }
 a{
     text-decoration:none;
@@ -42,12 +40,11 @@ a{
     bottom: 96.71%;
 background: #FFFFFF;
 }
-.sparkle video{
-position: absolute;
-width: 1366px;
+.sparkle_video{
+width: 100%;
+position:absolute;
 height: 722px;
-left: 0px;
-top: 47px;
+top: 147px; 
 }
 
 .BlackLogo{
@@ -55,89 +52,107 @@ top: 47px;
     width: 159px;
     height: 146px;
     left: 62px;
-    top: -50px;
+    top: 0px;
 }
 .text1{
     position: absolute;
-width: 537px;
-height: 114px;
-left: 359px;
-top: 919px;
+    width: 100%;
+    height: 114px;
+    top: 919px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
 
-font-family: Montserrat;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-text-align: center;
-
-color: #2F4858;
+    
+    color: #2F4858;
+    
+    
 }
-
+.text1-brake{
+    width: 50%;
+    margin: auto;
+}
 .ripped-sparkle{
     position: absolute;
     left: -0.00%;
+    width: 100%;
     right: 0%;
-    top: 2.33%;
+    top: 24.6%;
     bottom: 96.71%;
 }
 .ripped{
     position: absolute;
-width: 1366px;
-height: 55px;
-top: 1183px;
+    width: 100%;
+    height: 55px;
+    top: 1182px;
+
+    background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .ripped2{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 55px;
 left: 0px;
 top: 1526px;
 transform: rotate(-180deg);
 
+background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
+}
 
+.multiple-images {
+    width: 100%;
+    height: 383px;
+    top: 1211px;
 }
 
 .zanda{
     position: absolute;
-    width: 328px;
+    width: 25%;
 height: 355px;
 left: 0px;
 top: 1197px;
 }
 .sibilla{
     position: absolute;
-width: 334px;
+width: 25%;
 height: 364px;
-left: 328px;
+left: 25%;
 top: 1202px;
 }
 .brinuma_meita{
     position: absolute;
-width: 298px;
+width: 25%;
 height: 180px;
-left: 662px;
+left: 50%;
 top: 1202px;
 }
 .alina{
     position: absolute;
-width: 298px;
+width: 25%;
 height: 184px;
-left: 662px;
+left: 50%;
 top: 1382px;
 }
 .anda{
     position: absolute;
-width: 406px;
+width: 25%;
 height: 383px;
-left: 960px;
+left: 75%;
 top: 1183px;
 }
 .qtext1{
     position: absolute;
-width: 394px;
+width: 50%;
 height: 29px;
-left: 220px;
+left: 2%;
 top: 1731px;
 
 font-family: Oswald;
@@ -151,9 +166,9 @@ color: #2F4858;
 }
 .qtext2{
     position: absolute;
-width: 501px;
+width: 50%;
 height: 29px;
-left: 698px;
+left: 49%;
 top: 1731px;
 
 font-family: Oswald;
@@ -168,9 +183,9 @@ color: #2F4858;
 
 .button1{
     position: absolute;
-    width: 182.67px;
+    width: 17%;
     height: 50px;
-    left: 325.17px;
+    left: 17%;
     top: 1810px;
     border-radius: 30px;
     background-color:#FFA800;
@@ -179,9 +194,9 @@ color: #2F4858;
 }
 .button2{
     position: absolute;
-    width: 184.63px;
+    width: 17%;
     height: 50px;
-    left: 856.19px;
+    left: 67%;
     top: 1810px;
     border-radius: 30px;
     color:white;
@@ -191,9 +206,8 @@ color: #2F4858;
 
 .formasText{
     position: absolute;
-width: 819px;
+width: 100%;
 height: 48px;
-left: 274px;
 top: 2010px;
 
 font-family: Oswald;
@@ -208,9 +222,9 @@ color: #2F4858;
 }
 .inputfield-name{
     position: absolute;
-width: 296px;
+width: 19%;
 height: 43px;
-left: 377px;
+left: 30%;
 top: 2113px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -219,9 +233,9 @@ border: none;
 }
 .inputfield-email{
     position: absolute;
-width: 296px;
+width: 19%;
 height: 43px;
-left: 693px;
+left: 50%;
 top: 2113px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -230,9 +244,9 @@ border: none;
 }
 .inputfield-tel{
     position: absolute;
-width: 612px;
+width: 39%;
 height: 43px;
-left: 377px;
+left: 30%;
 top: 2171px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -241,9 +255,9 @@ border:none;
 }
 .textarea{
     position: absolute;
-width: 612px;
+width: 39%;
 height: 232px;
-left: 377px;
+left: 30%;
 top: 2229px;
 
 background: rgba(196, 196, 196, 0.4);
@@ -253,9 +267,9 @@ border: none;
 
 .smalltext{
     position: absolute;
-width: 612px;
+width: 100%;
 height: 25px;
-left: 377px;
+left: 30%;
 top: 2476px;
 
 font-family: Montserrat;
@@ -270,7 +284,7 @@ color: #2F4858;
     position: absolute;
 width: 572px;
 height: 39px;
-left: 417px;
+left: 32%;
 top: 2526px;
 
 font-family: Montserrat;
@@ -285,14 +299,14 @@ color: #2F4858;
     position: absolute;
 width: 16px;
 height: 41px;
-left: 380px;
+left:30%;
 top: 2529px;
 }
 .poga{
     position: absolute;
-width: 182px;
+width: 13%;
 height: 62px;
-left: 592px;
+left: 44%;
 top: 2615px;
 
 font-family: Montserrat;
@@ -311,7 +325,7 @@ background-color:#FFA800;
 
 .atbalstitaji{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 533.32px;
 left: 0px;
 top: 2827px;
@@ -320,45 +334,52 @@ background: #FFCB66;
 }
 .teikums{
     position: absolute;
-width: 241.95px;
+width: 15%;
 height: 80px;
-left: 168px;
+left: 10%;
 top: 3045px;
+padding: 10px;
 
 }
 .sem-logo{
     position: absolute;
-width: 209.32px;
+width: 13%;
 height: 80px;
-left: 495px;
+left: 30%;
 top: 3045px;
+padding: 10px;
 }
 .citybee{
     position: absolute;
-width: 238.96px;
+width: 14%;
 height: 80px;
-left: 789px;
+left: 50%;
 top: 3045px;
+padding: 10px;
 }
 .linearis{
     position: absolute;
-width: 84.77px;
+width: 5%;
 height: 120px;
-left: 1113px;
+left: 70%;
 top: 3026px;
+padding: 10px;
 }
 .ripped3{
     position: absolute;
-width: 1366px;
+    width: 100%;
 height: 55px;
 left: 0px;
 top: 2827px;
+
+background-image: url("../img/ripped.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .atbalstitaji-text{
     position: absolute;
-width: 394px;
+width: 100%;
 height: 29px;
-left: 486px;
 top: 2900px;
 
 font-family: Oswald;
@@ -374,8 +395,9 @@ color: #2F4858;
     position: absolute;
 left: 0%;
 right: 0%;
-top: 91.9%;
+top: 626.6%;
 bottom: 0%;
+width: 100%;
 height: 324px;
 
 background: #2F4858;
@@ -384,9 +406,14 @@ background: #2F4858;
     position: absolute;
 left: 0%;
 right: 0%;
-top: 90.76%;
+top: 616.6%;
 bottom: 8.61%;
+width: 100%;
 transform: rotate(-180deg);
+
+background-image: url("../img/ripped-blue.png"); /* The image used */
+background-repeat: no-repeat; /* Do not repeat the image */
+background-size: cover; /* Resize the background image to cover the entire container */
 }
 .GoldenLogo{
     position: absolute;
@@ -522,3 +549,89 @@ color: #FFFFFF;
 
 
 }
+.title-ideja{
+    position: absolute;
+width: 182px;
+height: 70px;
+left: 592px;
+top: 205px;
+
+font-family: Oswald;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 71px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2F4858;
+}
+
+.text-ideja{
+    position: absolute;
+width: 606px;
+height: 112px;
+left: 380px;
+top: 335px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2F4858;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Bold.ttf")
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Medium.ttf")
+  }
+  .juris{
+    position: absolute;
+    width: 1366px;
+    height: 701px;
+    left: 0px;
+    top: 597px;
+    
+    background: url(../img/Juris\ \(1\)\ 1.jpg);
+  }
+  .juris-text{
+    position: absolute;
+    width: 818px;
+    height: 108px;
+    left: 220px;
+    top: 527px;
+    
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    
+    color: #FFFFFF;
+  }
+  .juris-ripped{
+    position: absolute;
+    width: 1366px;
+    height: 55px;
+    top: 652px;
+    
+    background: url(../img/ripped.png);
+    transform: rotate(-180deg);
+  }
+  .juris-ripped2{
+    position: absolute;
+    width: 1366px;
+    height: 55px;
+    top: -1px;
+    
+    background: url(../img/ripped.png);
+  }
