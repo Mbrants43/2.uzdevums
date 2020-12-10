@@ -49,9 +49,9 @@ top: 147px;
 
 .BlackLogo{
     position: absolute;
-    width: 159px;
+    width: 11%;
     height: 146px;
-    left: 62px;
+    left: 5%;
     top: 0px;
 }
 .text1{
@@ -282,7 +282,7 @@ color: #2F4858;
 }
 .consent{
     position: absolute;
-width: 572px;
+width: 39%;
 height: 39px;
 left: 32%;
 top: 2526px;
@@ -334,7 +334,7 @@ background: #FFCB66;
 }
 .teikums{
     position: absolute;
-width: 15%;
+width: 16.21%;
 height: 80px;
 left: 10%;
 top: 3045px;
@@ -343,26 +343,26 @@ padding: 10px;
 }
 .sem-logo{
     position: absolute;
-width: 13%;
+width: 14%;
 height: 80px;
-left: 30%;
+left: 35%;
 top: 3045px;
 padding: 10px;
 }
 .citybee{
     position: absolute;
-width: 14%;
+width: 16%;
 height: 80px;
-left: 50%;
-top: 3045px;
+left: 55%;
+top: 3032px;
 padding: 10px;
 }
 .linearis{
     position: absolute;
-width: 5%;
+width: 4.7%;
 height: 120px;
-left: 70%;
-top: 3026px;
+left: 81%;
+top: 3016px;
 padding: 10px;
 }
 .ripped3{
